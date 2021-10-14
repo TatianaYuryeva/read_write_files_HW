@@ -28,4 +28,4 @@ with open('all_f.txt', 'w', encoding='utf-8') as f:
         f.write(f'{key}\n')
         for el in val:
             for elem in el:
-                f.write(f'{elem}\n')
+                f.write(f'{elem.rstrip()}\n')
